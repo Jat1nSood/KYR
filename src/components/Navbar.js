@@ -1,43 +1,32 @@
 import React from 'react'
-import '../css/Nav.css'
+
+// import Link from 'react-router-dom'
+import '../css/Navbar.css'
 export default function Navbar() {
   return (
     <div>
-
-        <div className='cards'>
-
-            <div className='card'>
-                <img src=''/>
-
-                <h3 className='heading'>
-                    DELIVER
-                </h3>
-
-                <p className='description'>We deliver exceptional branding and stay in touch with our customers with every order. If you have any inquiries regarding any of our products, get in touch with us. We eventually succeed when we correctly prioritize the needs and preferences of our clients.</p>
-            </div>
-
-            <div className='card'>
-                <img src=''/>
-
-                <h3 className='heading'>
-                TEAM
-                </h3>
-
-                <p className='description'>We deliver exceptional branding and stay in touch with our customers with every order. If you have any inquiries regarding any of our products, get in touch with us. We eventually succeed when we correctly prioritize the needs and preferences of our clients.</p>
-            </div>
-
-
-            <div className='card'>
-                <img src=''/>
-
-                <h3 className='heading'>
-                    VALUE
-                </h3>
-
-                <p className='description'>We deliver exceptional branding and stay in touch with our customers with every order. If you have any inquiries regarding any of our products, get in touch with us. We eventually succeed when we correctly prioritize the needs and preferences of our clients.</p>
-            </div>
+      <div className='navbar'>
+        <div className='navcontainer1'>
+            <img className='navlogo' src=''/>
         </div>
-      
+
+        <div className='navcontainer2'>
+            <div className='nav-item'>Home</div>
+            <div className='nav-item'>About us</div>
+             <div className='nav-item'>Products</div>
+             <div className='nav-item'>Contact Us</div>
+        </div>
+
+        <div className='navcontainer3'>
+
+        <div className='nav-item'>Send Email</div>
+        <div className='nav-item'>Send SMS</div>
+
+
+            
+        </div>
+      </div>
     </div>
   )
 }
+

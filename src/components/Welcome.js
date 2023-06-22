@@ -7,13 +7,13 @@ export default function Welcome() {
       <div className="welcome">
         <div className="innerContainer">
           <div className="youtube">
-            <img src={youtube}/>
+            <img className = "welcomeImage"src={youtube}/>
           </div>
 
           <div className="content">
             <div className="heading">WELCOME TO OUR WEBSITE</div>
 
-            <div className="description">
+            <div className="welcomeDescription">
               Elevator and lift manufacturers and suppliers include KYR
               Elevators (A unit of Spectra Enterprises). To ensure that our
               products are created and delivered on schedule, we maintain a
@@ -32,30 +32,27 @@ export default function Welcome() {
               </div>
 
               <div className="welcomeCard">
-                <div className="cardHeading">Nature of Buissness</div>
+                <div className="cardHeading">Number of Employees</div>
 
                 <div className="cardContent">
-                  Manufacturer, Trader, Wholesaler
-                </div>
+20 - 50                </div>
               </div>
              </div>
 
              <div className="cardContainer2">
 
              <div className="welcomeCard">
-                <div className="cardHeading">Nature of Buissness</div>
+                <div className="cardHeading">Year of Establishment</div>
 
                 <div className="cardContent">
-                  Manufacturer, Trader, Wholesaler
-                </div>
+2006                </div>
               </div>
 
               <div className="welcomeCard">
-                <div className="cardHeading">Nature of Buissness</div>
+                <div className="cardHeading">Market Covered</div>
 
                 <div className="cardContent">
-                  Manufacturer, Trader, Wholesaler
-                </div>
+Anywhere in India                </div>
               </div>
 
              </div>

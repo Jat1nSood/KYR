@@ -1,0 +1,31 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.topnav{
+    display: flex;
+    background-color: rgb(155, 9, 9);
+    color: white;
+    height: 2rem;
+    font-weight: 650;
+}
+
+
+.container1{
+    display: flex;
+}
+
+.container2{
+}
+
+.topnavGst{
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .topnav{
+        display: none;
+    }
+}

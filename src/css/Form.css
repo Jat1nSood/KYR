@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+
+.form{
+   display: flex;
+   justify-content: center;
+   width: 70%;
+   background-color: rgb(244, 242, 239);
+   margin-top: 3rem;
+
+}
+
+.formContainer1{
+    margin: 0;
+    margin-top: 3rem;
+    width: 50%;
+    padding: 30px;
+}
+
+.formContainer2{
+   margin: 0;
+   margin-top: 3rem;
+
+  
+}
+
+.formContainer2 img{
+height: 360px;   
+ }
+
+.formHeading{
+    font-size: 1.5rem;
+    color: blue;
+    
+}
+.input {
+    margin-top: 1rem;
+}
+
+.input input{
+    background-color: rgb(244, 242, 239);
+
+    border: none;
+    width: 40%;
+    font-size: 1rem;
+    border-bottom: 1px solid;
+
+}
+
+.input :nth-child(2){
+    margin-left: 1rem;
+}
+.input :nth-child(5){
+    margin-left: 1rem;
+}
